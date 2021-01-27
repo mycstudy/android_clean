@@ -71,7 +71,6 @@ public class BleMainActivity extends BleBaseActivity {
         @Override
         public void run() {
             reader.singleInventory((status, list) -> {
-                boolean allRag=true;
                 boolean alarm=false;
                 String max_rag="";
                 float max_rag_rssi=-1000;
@@ -133,13 +132,8 @@ public class BleMainActivity extends BleBaseActivity {
                     }
                 }
 
-                //判断有没有除了抹布以外的标签
-                if(max_tag!=""){
-                    allRag=false;
-                }
-
                 //判断是否需要上传到平台
-                if(epcList.isEmpty()||allRag){
+                if(epcList.isEmpty()){
                     isUpload=false;
                 }else{
                     isUpload=true;
@@ -467,7 +461,12 @@ public class BleMainActivity extends BleBaseActivity {
             data.put("labelId",labelIdList);
             data.put("dishclothId"," ");
             data.put("pairStatus",2);
-        }else {
+        }else if(labelIdList.isEmpty()){
+            data.put("braceletId",reader_name);
+            data.put("labelId"," ");
+            data.put("dishclothId",dishclothIdList);
+            data.put("pairStatus",2);
+        } else {
             data.put("braceletId",reader_name);
             data.put("labelId",labelIdList);
             data.put("dishclothId",dishclothIdList);

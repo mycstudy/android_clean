@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./ble.bu01.demo/libs/BU01_BleService1.0.aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5840a0551a79b2710323d035cdacc1/BU01_BleService1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5840a0551a79b2710323d035cdacc1/BU01_BleService1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e5840a0551a79b2710323d035cdacc1/BU01_BleService1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

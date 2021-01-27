@@ -1,0 +1,252 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\537cf51c9e0782d8817700d15d4658a2\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\95fdbcb22364b3edbb0deb2de2b24d45\constraint-layout-1.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\4c185ca9b65647d9d828720197f64901\cardview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c9227f04e30fd3e5dc634222b73de043\butterknife-8.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\17d3ee8213c3d615f665e6ba3820d3f6\animated-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\201c228050254ace1b8f140e2fc775b8\support-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\f07a36d0bea77c7cf90b2ab598fc60d7\recyclerview-v7-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5024f7d75547ee119875512a7762617c\transition-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8e418dc73f88b246df9f3770ea9b049b\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\164241410b08f95348d8496968a68083\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8b5e690dfc95bec2f7459b410af75301\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\83f0cf0043afc0fe275660c305ff9788\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\1da286459ccaa4f08a12b98d799cd2c5\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c70b36f77082476cd37ba769b83fc06f\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:3:11-42
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:5:5-68
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:11:5-68
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:6:5-74
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:12:5-74
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:6:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:11:22-78
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:12:5-88
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:12:29-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:13:22-65
+application
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:14:5-38:19
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:14:5-18:19
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:14:5-18:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\537cf51c9e0782d8817700d15d4658a2\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\537cf51c9e0782d8817700d15d4658a2\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\95fdbcb22364b3edbb0deb2de2b24d45\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\95fdbcb22364b3edbb0deb2de2b24d45\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\4c185ca9b65647d9d828720197f64901\cardview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\4c185ca9b65647d9d828720197f64901\cardview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\17d3ee8213c3d615f665e6ba3820d3f6\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\17d3ee8213c3d615f665e6ba3820d3f6\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\201c228050254ace1b8f140e2fc775b8\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\201c228050254ace1b8f140e2fc775b8\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\f07a36d0bea77c7cf90b2ab598fc60d7\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\f07a36d0bea77c7cf90b2ab598fc60d7\recyclerview-v7-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5024f7d75547ee119875512a7762617c\transition-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5024f7d75547ee119875512a7762617c\transition-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8e418dc73f88b246df9f3770ea9b049b\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8e418dc73f88b246df9f3770ea9b049b\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\164241410b08f95348d8496968a68083\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\164241410b08f95348d8496968a68083\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8b5e690dfc95bec2f7459b410af75301\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8b5e690dfc95bec2f7459b410af75301\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\83f0cf0043afc0fe275660c305ff9788\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\83f0cf0043afc0fe275660c305ff9788\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\1da286459ccaa4f08a12b98d799cd2c5\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\1da286459ccaa4f08a12b98d799cd2c5\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c70b36f77082476cd37ba769b83fc06f\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c70b36f77082476cd37ba769b83fc06f\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:18:9-41
+	android:roundIcon
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:19:9-54
+	android:icon
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:17:9-37
+	android:allowBackup
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:15:9-39
+activity#com.xminnov.bu01.demo.BleServiceActivity
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:22:9-32:20
+	android:screenOrientation
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:26:13-49
+	android:label
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:24:13-45
+	android:theme
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:23:13-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:30:27-74
+activity#com.xminnov.bu01.demo.BleMainActivity
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:33:9-89
+	android:screenOrientation
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:33:51-87
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:33:19-50
+activity#com.xminnov.bu01.demo.BleBaseActivity
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:34:9-89
+	android:screenOrientation
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:34:51-87
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:34:19-50
+meta-data#android.max_aspect
+ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:35:9-37:34
+	android:value
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:37:13-32
+	android:name
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml:36:13-46
+uses-sdk
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [BU01_BleService1.0.aar] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\3e5840a0551a79b2710323d035cdacc1\BU01_BleService1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\537cf51c9e0782d8817700d15d4658a2\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\537cf51c9e0782d8817700d15d4658a2\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\95fdbcb22364b3edbb0deb2de2b24d45\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\95fdbcb22364b3edbb0deb2de2b24d45\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\4c185ca9b65647d9d828720197f64901\cardview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\4c185ca9b65647d9d828720197f64901\cardview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c9227f04e30fd3e5dc634222b73de043\butterknife-8.8.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c9227f04e30fd3e5dc634222b73de043\butterknife-8.8.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\17d3ee8213c3d615f665e6ba3820d3f6\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\17d3ee8213c3d615f665e6ba3820d3f6\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\201c228050254ace1b8f140e2fc775b8\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\201c228050254ace1b8f140e2fc775b8\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\f07a36d0bea77c7cf90b2ab598fc60d7\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\f07a36d0bea77c7cf90b2ab598fc60d7\recyclerview-v7-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5024f7d75547ee119875512a7762617c\transition-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5024f7d75547ee119875512a7762617c\transition-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8e418dc73f88b246df9f3770ea9b049b\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8e418dc73f88b246df9f3770ea9b049b\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\164241410b08f95348d8496968a68083\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\164241410b08f95348d8496968a68083\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8b5e690dfc95bec2f7459b410af75301\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8b5e690dfc95bec2f7459b410af75301\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\83f0cf0043afc0fe275660c305ff9788\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\83f0cf0043afc0fe275660c305ff9788\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\1da286459ccaa4f08a12b98d799cd2c5\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\1da286459ccaa4f08a12b98d799cd2c5\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c70b36f77082476cd37ba769b83fc06f\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c70b36f77082476cd37ba769b83fc06f\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+		ADDED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+		INJECTED from D:\user\zhuomian\APP\demo_source_origin\demo_source\ble.bu01.demo\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\537cf51c9e0782d8817700d15d4658a2\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\537cf51c9e0782d8817700d15d4658a2\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\4c185ca9b65647d9d828720197f64901\cardview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\4c185ca9b65647d9d828720197f64901\cardview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\17d3ee8213c3d615f665e6ba3820d3f6\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\17d3ee8213c3d615f665e6ba3820d3f6\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\201c228050254ace1b8f140e2fc775b8\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\201c228050254ace1b8f140e2fc775b8\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\f07a36d0bea77c7cf90b2ab598fc60d7\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\f07a36d0bea77c7cf90b2ab598fc60d7\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5024f7d75547ee119875512a7762617c\transition-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5024f7d75547ee119875512a7762617c\transition-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8e418dc73f88b246df9f3770ea9b049b\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8e418dc73f88b246df9f3770ea9b049b\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\164241410b08f95348d8496968a68083\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\164241410b08f95348d8496968a68083\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8b5e690dfc95bec2f7459b410af75301\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\8b5e690dfc95bec2f7459b410af75301\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\83f0cf0043afc0fe275660c305ff9788\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\83f0cf0043afc0fe275660c305ff9788\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\1da286459ccaa4f08a12b98d799cd2c5\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\1da286459ccaa4f08a12b98d799cd2c5\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c70b36f77082476cd37ba769b83fc06f\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\c70b36f77082476cd37ba769b83fc06f\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\5075c28a3ff866afb95f42bc3091a17e\design-26.1.0\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\miaoyuchen\.gradle\caches\transforms-2\files-2.1\6cb2a6f36bbbd17a0334ecd31cfa62a6\runtime-1.0.0\AndroidManifest.xml:26:13-58

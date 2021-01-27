@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/list_style">
+
+    <TextView
+        android:id="@+id/tv_no"
+        style="@style/ListTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_epc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_epc"
+        tools:text="12" />
+
+    <TextView
+        android:id="@+id/tv_rssi"
+        style="@style/ListTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_epc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_epc"
+        tools:text="-36.1" />
+
+    <TextView
+        android:id="@+id/tv_count"
+        style="@style/ListTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_epc"
+        app:layout_constraintEnd_toStartOf="@+id/tv_rssi"
+        app:layout_constraintTop_toTopOf="@+id/tv_epc"
+        tools:text="1089" />
+
+    <TextView
+        android:id="@+id/tv_epc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#333"
+        app:layout_constraintEnd_toStartOf="@+id/tv_count"
+        app:layout_constraintStart_toEndOf="@+id/tv_no"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="12345678 90ABCDEF 12345678 90ABCDEF" />
+</android.support.constraint.ConstraintLayout>

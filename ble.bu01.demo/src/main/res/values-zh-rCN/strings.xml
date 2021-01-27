@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蓝牙UHF</string>
+    <string name="connect">连接</string>
+    <string name="disconnect">断开</string>
+
+    <string name="text_tv_no">序号</string>
+    <string name="text_tv_epc">EPC</string>
+    <string name="text_tv_count">数量</string>
+    <string name="text_tv_rssi">Rssi</string>
+    <string name="text_tv_total_anchor">总计:</string>
+
+    <string name="text_tv_anchor_epc">EPC:</string>
+    <string name="text_tv_anchor_tid">TID:</string>
+    <string name="text_tv_anchor_access_pwd">访问密码(16进制):</string>
+    <string name="text_tv_anchor_start_addr">起始地址(16进制):</string>
+    <string name="text_tv_anchor_memory_bank">操作区:</string>
+    <string name="text_tv_anchor_length">长度(字)(16进制):</string>
+    <string name="text_tv_anchor_data">数据(16进制):</string>
+    <string name="text_tv_anchor_lock_object">锁区域:</string>
+    <string name="text_tv_anchor_lock_action">锁操作:</string>
+    <string name="text_tv_anchor_kill_pwd">销毁密码(16进制):</string>
+    <string name="text_tv_anchor_battery">电量:</string>
+    <string name="text_tv_anchor_buzzer">蜂鸣器:</string>
+    <string name="text_tv_anchor_calibration">W/O 温度校准:</string>
+    <string name="text_tv_anchor_coefficient">系数 温度校准:</string>
+    <string name="text_tv_anchor_info">信息:</string>
+    <string name="text_tv_anchor_name">读写器名称:</string>
+    <string name="text_tv_anchor_serial_number">序列号(10进制):</string>
+
+    <string name="text_tv_status_running">执行中&#8230;</string>
+    <string name="text_tv_status_success">成功</string>
+    <string name="text_tv_status_read_failed">读失败:%1$d</string>
+    <string name="text_tv_status_write_failed">写失败:%1$d</string>
+    <string name="text_tv_status_lock_failed">锁失败:%1$d</string>
+    <string name="text_tv_status_kill_failed">销毁失败:%1$d</string>
+    <string name="text_tv_status_operate_failed">操作失败:%1$d</string>
+    <string name="text_tv_status_single_inventory_failed">单次清点失败:%1$d</string>
+
+    <string name="text_tv_battery">%1$d%%</string>
+    <string name="text_tv_temperature">%1$s℃</string>
+    <string name="text_tv_power">%1$ddBm</string>
+    <string name="text_tv_channel">%1$d</string>
+
+    <string name="text_rb_epc">EPC</string>
+    <string name="text_rb_tid">TID</string>
+    <string name="text_rb_user">USER</string>
+    <string name="text_rb_reserve">RFU</string>
+    <string name="text_rb_access_pwd">访问密码</string>
+    <string name="text_rb_kill_pwd">销毁密码</string>
+    <string name="text_rb_unlock">解锁</string>
+    <string name="text_rb_lock">锁定</string>
+    <string name="text_rb_lock_perm">永久锁定</string>
+    <string name="text_rb_version">版本号</string>
+    <string name="text_rb_korea">韩国</string>
+    <string name="text_rb_us1">美国1</string>
+    <string name="text_rb_us2">美国2</string>
+    <string name="text_rb_europe">欧洲</string>
+    <string name="text_rb_japan">日本</string>
+    <string name="text_rb_china1">中国1</string>
+    <string name="text_rb_china2">中国2</string>
+
+    <string name="text_btn_setting">设置</string>
+    <string name="text_btn_demo">演示</string>
+    <string name="text_btn_inventory_start">开始清点</string>
+    <string name="text_btn_inventory_stop">停止清点</string>
+    <string name="text_btn_getUII">单次清点</string>
+    <string name="text_btn_clear">清空</string>
+    <string name="text_btn_read">读标签</string>
+    <string name="text_btn_write">写标签</string>
+    <string name="text_btn_lock">锁标签</string>
+    <string name="text_btn_kill">销毁标签</string>
+    <string name="text_btn_battery">获取电量</string>
+    <string name="text_btn_get_info">获取版本</string>
+    <string name="text_btn_get_band">获取频段</string>
+    <string name="text_btn_set_band">设置频段</string>
+    <string name="text_btn_set_name">设置名称</string>
+    <string name="text_btn_get_buzzer">蜂鸣器</string>
+    <string name="text_btn_get_light">灯开关</string>
+    <string name="text_btn_set_light">启用灯</string>
+    <string name="text_btn_get_power">获取功率</string>
+    <string name="text_btn_set_power">设置功率</string>
+    <string name="text_btn_get_channel">获取通道</string>
+    <string name="text_btn_set_channel">设置通道</string>
+    <string name="text_btn_get_serial_number">读序列号</string>
+    <string name="text_btn_set_serial_number">写序列号</string>
+    <string name="text_btn_factory_reset">恢复出厂设置</string>
+
+    <string name="text_cb_light_left">左边灯</string>
+    <string name="text_cb_light_middle">中间灯</string>
+    <string name="text_cb_light_right">右边灯</string>
+
+    <string name="text_tab_setting">设置</string>
+    <string name="text_tab_tid">TID</string>
+    <string name="text_tab_read">读标签</string>
+    <string name="text_tab_write">写标签</string>
+    <string name="text_tab_lock">锁标签</string>
+    <string name="text_tab_kill">销毁标签</string>
+    <string name="text_tab_tamper">侦测线标签</string>
+    <string name="text_tab_temp_passive">无源温度标签</string>
+
+    <string name="toast_err_disconnect">蓝牙设备断开连接</string>
+    <string name="toast_err_invalid_pwd">密码长度不超过8!</string>
+    <string name="toast_err_null_pwd">密码不能为空!</string>
+    <string name="toast_err_invalid_addr">地址格式错误</string>
+    <string name="toast_err_invalid_length">长度格式错误</string>
+    <string name="toast_err_invalid_data_length">写数据长度不匹配</string>
+    <string name="toast_err_invalid_name">名称格式错误</string>
+    <string name="toast_err_invalid_serial_number">序列号格式错误</string>
+    <string name="toast_err_overflow_serial_number">序列号超出范围</string>
+    <string name="toast_err_init_config_file">加载配置文件需要权限!</string>
+    <string name="toast_err_no_matching_config">没有匹配的配置!</string>
+    <string name="toast_err_tamper_nonsupport">该标签不支持此功能!</string>
+    <string name="toast_err_single_inventory">单次清点失败:%1$d</string>
+    <string name="toast_err_start_inventory">开启连续清点失败:%1$d</string>
+    <string name="toast_err_reset">重置失败</string>
+    <string name="toast_err_no_tag">无标签</string>
+
+    <string name="toast_suc_reset">重置成功</string>
+
+    <string name="text_image_description">带侦测线标签</string>
+    <string name="text_dialog_tamper">标签检测中&#8230;</string>
+    <string name="text_hint_search_device">下拉搜索超高频蓝牙读写器</string>
+    <string name="text_hint_kill_pwd">RFU区的前两个字，且不能为0</string>
+    <string name="text_hint_acc_pwd">RFU区的后两个字，且不能为0</string>
+    <string name="text_hint_read_length">输入地址0、长度0，可读取整个块的内容</string>
+    <string name="text_hint_set_name">设置后生效需要一些时间</string>
+    <string name="text_hint_set_serial_number">0&#8211;4294967295</string>
+
+    <string name="text_dialog_kill_message">确认销毁标签？</string>
+    <string name="text_dialog_reset_message">确认恢复出厂设置？</string>
+    <string name="text_dialog_resetting_message">重置中&#8230;</string>
+    <string name="text_dialog_low_power">设备电量过低，请及时充电!</string>
+    <string name="text_dialog_btn_confirm">确认</string>
+    <string name="text_dialog_btn_cancel">取消</string>
+</resources>

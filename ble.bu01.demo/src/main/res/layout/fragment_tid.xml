@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_read"
+        style="@style/BlueTextButton"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_btn_read"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        style="@style/StatusTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_read"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_read"
+        tools:text="Running..." />
+
+    <TextView
+        android:id="@+id/tv_anchor_pwd"
+        style="@style/BoldTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_access_pwd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_read" />
+
+    <EditText
+        android:id="@+id/et_acc_pwd"
+        style="@style/BorderEditText"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="00000000"
+        android:textAlignment="textStart"
+        android:hint=""
+        app:layout_constraintBottom_toBottomOf="@+id/tv_anchor_pwd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_pwd"
+        app:layout_constraintTop_toTopOf="@+id/tv_anchor_pwd" />
+
+    <TextView
+        android:id="@+id/tv_anchor_epc"
+        style="@style/BoldTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_tv_anchor_epc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_anchor_pwd" />
+
+    <TextView
+        android:id="@+id/tv_epc"
+        style="@style/NormalTextView"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_anchor_epc"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_epc"
+        app:layout_constraintTop_toTopOf="@+id/tv_anchor_epc"
+        tools:text="12345678 90ABCDEF 12345678 90ABCDEF" />
+
+    <TextView
+        android:id="@+id/tv_anchor_tid"
+        style="@style/BoldTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_tid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_anchor_epc" />
+
+    <TextView
+        android:id="@+id/tv_tid"
+        style="@style/NormalTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_anchor_tid"
+        app:layout_constraintStart_toStartOf="@+id/tv_epc"
+        app:layout_constraintTop_toTopOf="@+id/tv_anchor_tid"
+        tools:text="12345678 0ABCDEF" />
+
+</android.support.constraint.ConstraintLayout>

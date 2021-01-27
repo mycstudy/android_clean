@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_read"
+        style="@style/BlueTextButton"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_btn_read"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        style="@style/StatusTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_read"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_read"
+        tools:text="Running..." />
+
+    <TextView
+        android:id="@+id/tv_anchor_epc"
+        style="@style/BoldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/text_tv_anchor_epc"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_epc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_epc" />
+
+    <TextView
+        android:id="@+id/tv_epc"
+        style="@style/NormalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_epc"
+        app:layout_constraintTop_toBottomOf="@+id/btn_read"
+        tools:text="01020304  05060708  090A0B0C  0D0E0F00" />
+
+    <TextView
+        android:id="@+id/tv_anchor_pwd"
+        style="@style/BoldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_access_pwd"
+        app:layout_constraintBottom_toBottomOf="@+id/et_acc_pwd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_acc_pwd" />
+
+    <EditText
+        android:id="@+id/et_acc_pwd"
+        style="@style/BorderEditText"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="00000000"
+        android:textAlignment="textStart"
+        android:hint=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_epc" />
+
+    <TextView
+        android:id="@+id/tv_anchor_addr"
+        style="@style/BoldTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_start_addr"
+        app:layout_constraintBottom_toBottomOf="@+id/et_addr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_addr" />
+
+    <EditText
+        android:id="@+id/et_addr"
+        style="@style/BorderEditText"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="textStart"
+        android:hint=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/et_acc_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/et_acc_pwd"
+        tools:text="2" />
+
+    <TextView
+        android:id="@+id/tv_anchor_memory"
+        style="@style/BoldTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_memory_bank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_addr" />
+
+    <RadioGroup
+        android:id="@+id/rg_memory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:checkedButton="@+id/rb_epc"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_anchor_memory">
+
+        <RadioButton
+            android:id="@+id/rb_epc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_epc" />
+
+        <RadioButton
+            android:id="@+id/rb_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_user" />
+
+        <RadioButton
+            android:id="@+id/rb_reserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_reserve" />
+
+        <RadioButton
+            android:id="@+id/rb_tid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_tid" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_length"
+        style="@style/BoldTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_length"
+        app:layout_constraintBottom_toBottomOf="@+id/et_length"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_length" />
+
+    <EditText
+        android:id="@+id/et_length"
+        style="@style/BorderEditText"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="textStart"
+        android:hint=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/et_addr"
+        app:layout_constraintTop_toBottomOf="@+id/rg_memory"
+        tools:text="6" />
+
+    <TextView
+        android:id="@+id/tv_data"
+        style="@style/BoldTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_data"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_length" />
+
+    <EditText
+        android:id="@+id/et_data"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_style"
+        android:gravity="top|start"
+        android:hint=""
+        app:layout_constraintBottom_toTopOf="@+id/tv_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data"
+        tools:text="12 34" />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/text_hint_read_length"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

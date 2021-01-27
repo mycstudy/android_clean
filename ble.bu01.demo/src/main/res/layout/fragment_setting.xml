@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_read"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_battery"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/StatusTextView"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_read"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_read"
+            tools:text="Running..." />
+
+        <TextView
+            android:id="@+id/tv_anchor_battery"
+            style="@style/BoldTextView"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_tv_anchor_battery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_read" />
+
+        <TextView
+            android:id="@+id/tv_battery"
+            style="@style/NormalTextView"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_anchor_battery"
+            app:layout_constraintStart_toEndOf="@+id/tv_anchor_battery"
+            app:layout_constraintTop_toTopOf="@+id/tv_anchor_battery"
+            tools:text="100%" />
+
+        <Button
+            android:id="@+id/btn_get_buzzer"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_get_buzzer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_anchor_battery" />
+
+        <TextView
+            android:id="@+id/tv_anchor_buzzer"
+            style="@style/BoldTextView"
+            android:layout_marginStart="16dp"
+            android:text="@string/text_tv_anchor_buzzer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_get_buzzer" />
+
+        <Switch
+            android:id="@+id/switch_buzzer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_anchor_buzzer"
+            app:layout_constraintStart_toEndOf="@+id/tv_anchor_buzzer"
+            app:layout_constraintTop_toTopOf="@+id/tv_anchor_buzzer" />
+
+        <Button
+            android:id="@+id/btn_get_info"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_get_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_anchor_buzzer" />
+
+        <TextView
+            android:id="@+id/tv_status2"
+            style="@style/StatusTextView"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_get_info"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_get_info"
+            tools:text="Running..." />
+
+        <TextView
+            android:id="@+id/tv_anchor_info"
+            style="@style/BoldTextView"
+            android:layout_marginStart="16dp"
+            android:text="@string/text_tv_anchor_info"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_info"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_info" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            style="@style/NormalTextView"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@+id/tv_anchor_info"
+            app:layout_constraintTop_toBottomOf="@+id/btn_get_info"
+            tools:text="IVF-BU01" />
+
+        <Button
+            android:id="@+id/btn_get_band"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_get_band"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info" />
+
+        <Button
+            android:id="@+id/btn_set_band"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_set_band"
+            app:layout_constraintEnd_toStartOf="@+id/btn_get_band"
+            app:layout_constraintTop_toBottomOf="@+id/tv_info" />
+
+        <TextView
+            android:id="@+id/tv_status3"
+            style="@style/StatusTextView"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_set_band"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_set_band"
+            tools:text="@string/text_tv_status_running" />
+
+        <com.xminnov.bu01.ui.FlowRadioGroup
+            android:id="@+id/rg_band"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_set_band">
+
+            <RadioButton
+                android:id="@+id/rb_korea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_rb_korea" />
+
+            <RadioButton
+                android:id="@+id/rb_us1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_rb_us1" />
+
+            <RadioButton
+                android:id="@+id/rb_us2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_rb_us2" />
+
+            <RadioButton
+                android:id="@+id/rb_europe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_rb_europe" />
+
+            <RadioButton
+                android:id="@+id/rb_japan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_rb_japan" />
+
+            <RadioButton
+                android:id="@+id/rb_china1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_rb_china1" />
+
+            <RadioButton
+                android:id="@+id/rb_china2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/text_rb_china2" />
+        </com.xminnov.bu01.ui.FlowRadioGroup>
+
+        <Button
+            android:id="@+id/btn_set_name"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_set_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_band" />
+
+        <TextView
+            android:id="@+id/tv_status4"
+            style="@style/StatusTextView"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_set_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_set_name"
+            tools:text="@string/text_tv_status_running" />
+
+        <TextView
+            android:id="@+id/tv_anchor_name"
+            style="@style/BoldTextView"
+            android:layout_marginStart="16dp"
+            android:text="@string/text_tv_anchor_name"
+            app:layout_constraintBottom_toBottomOf="@+id/et_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/et_name" />
+
+        <EditText
+            android:id="@+id/et_name"
+            style="@style/BorderEditText"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:text="FindID"
+            android:hint=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_anchor_name"
+            app:layout_constraintTop_toBottomOf="@+id/btn_set_name" />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/text_hint_set_name"
+            app:layout_constraintTop_toBottomOf="@id/et_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_status5"
+            style="@style/StatusTextView"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_get_buzzer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_get_buzzer"
+            tools:text="@string/text_tv_status_running" />
+
+        <Button
+            android:id="@+id/btn_get_light"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_get_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_hint" />
+
+        <Button
+            android:id="@+id/btn_set_light"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:text="@string/text_btn_set_light"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_get_light"
+            app:layout_constraintEnd_toStartOf="@+id/btn_get_light"
+            app:layout_constraintTop_toTopOf="@+id/btn_get_light" />
+
+        <TextView
+            android:id="@+id/tv_status6"
+            style="@style/StatusTextView"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_set_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_set_light"
+            tools:text="@string/text_tv_status_running" />
+
+        <CheckBox
+            android:id="@+id/cb_light_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_cb_light_left"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_set_light" />
+
+        <CheckBox
+            android:id="@+id/cb_light_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/text_cb_light_middle"
+            app:layout_constraintBottom_toBottomOf="@+id/cb_light_left"
+            app:layout_constraintStart_toEndOf="@+id/cb_light_left"
+            app:layout_constraintTop_toTopOf="@+id/cb_light_left" />
+
+        <CheckBox
+            android:id="@+id/cb_light_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/text_cb_light_right"
+            app:layout_constraintBottom_toBottomOf="@+id/cb_light_middle"
+            app:layout_constraintStart_toEndOf="@+id/cb_light_middle"
+            app:layout_constraintTop_toTopOf="@+id/cb_light_middle" />
+
+        <Button
+            android:id="@+id/btn_get_power"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_get_power"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cb_light_left" />
+
+        <Button
+            android:id="@+id/btn_set_power"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:text="@string/text_btn_set_power"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_get_power"
+            app:layout_constraintEnd_toStartOf="@+id/btn_get_power"
+            app:layout_constraintTop_toTopOf="@+id/btn_get_power" />
+
+        <TextView
+            android:id="@+id/tv_status7"
+            style="@style/StatusTextView"
+            android:layout_marginStart="16dp"
+            tools:text="@string/text_tv_status_running"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_get_power"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_get_power" />
+
+        <SeekBar
+            android:id="@+id/seekBar_power"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:max="10"
+            android:progress="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_get_power" />
+
+        <TextView
+            android:id="@+id/tv_power"
+            style="@style/NormalTextView"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            tools:text="25dBm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seekBar_power" />
+
+        <Button
+            android:id="@+id/btn_get_serial_number"
+            style="@style/BlueTextButton"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/text_btn_get_serial_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_power" />
+
+        <TextView
+            android:id="@+id/tv_status9"
+            style="@style/StatusTextView"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_get_serial_number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_get_serial_number"
+            tools:text="@string/text_tv_status_running" />
+
+        <TextView
+            android:id="@+id/tv_anchor_serial_number"
+            style="@style/BoldTextView"
+            android:layout_marginStart="16dp"
+            android:text="@string/text_tv_anchor_serial_number"
+            app:layout_constraintBottom_toBottomOf="@+id/et_serial_number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/et_serial_number" />
+
+        <EditText
+            android:id="@+id/et_serial_number"
+            style="@style/BorderEditText"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:hint="@string/text_hint_set_serial_number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_anchor_serial_number"
+            app:layout_constraintTop_toBottomOf="@+id/btn_get_serial_number" />
+
+        <Button
+            android:id="@+id/btn_factory_reset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_style"
+            android:text="@string/text_btn_factory_reset"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_serial_number" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

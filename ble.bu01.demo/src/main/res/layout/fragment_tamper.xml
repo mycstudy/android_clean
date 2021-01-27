@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7E9F3">
+
+    <TextView
+        android:id="@+id/tv_anchor_pwd"
+        style="@style/BoldTextView"
+        android:layout_marginStart="8dp"
+        android:text="@string/text_tv_anchor_access_pwd"
+        app:layout_constraintBottom_toBottomOf="@+id/et_acc_pwd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_acc_pwd" />
+
+    <EditText
+        android:id="@+id/et_acc_pwd"
+        style="@style/BorderEditText"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="00000000"
+        android:textAlignment="textStart"
+        android:hint=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_pwd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_anchor_epc"
+        style="@style/BoldTextView"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_tv_anchor_epc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_anchor_pwd" />
+
+    <TextView
+        android:id="@+id/tv_epc"
+        style="@style/NormalTextView"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_anchor_epc"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_epc"
+        app:layout_constraintTop_toTopOf="@+id/tv_anchor_epc"
+        tools:text="12345678 90ABCDEF 12345678 90ABCDEF" />
+
+    <ImageView
+        android:id="@+id/iv_tamper"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/text_image_description"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_anchor_epc"
+        app:srcCompat="@drawable/scan_no_logo" />
+</android.support.constraint.ConstraintLayout>

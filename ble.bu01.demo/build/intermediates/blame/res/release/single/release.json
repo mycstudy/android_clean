@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_scan_no_logo.jpg.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-xhdpi\\scan_no_logo.jpg"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_edit_text_unfocus_style.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\edit_text_unfocus_style.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\raw_net_err.mp3.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\raw\\net_err.mp3"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_button_style.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\button_style.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_bluetooth.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-hdpi\\bluetooth.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_activity_setting.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_read_tag.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_read_tag.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_write_tag.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_write_tag.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_temperature_passive.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_temperature_passive.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_lock_tag.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_lock_tag.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_edit_text_style.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\edit_text_style.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_kill_tag.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_kill_tag.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_activity_service.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\activity_service.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_list_style.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\list_style.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\generated\\res\\pngs\\release\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\raw_short_hint.mp3.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\raw\\short_hint.mp3"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\generated\\res\\pngs\\release\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\raw_disconnect.mp3.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\raw\\disconnect.mp3"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_edit_text_focused_style.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\edit_text_focused_style.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_setting.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-v21_list_style.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-v21\\list_style.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_scan_tampered.jpg.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-xhdpi\\scan_tampered.jpg"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\generated\\res\\pngs\\release\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_btn_normal.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\btn_normal.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_activity_tag_operation.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\activity_tag_operation.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_list_normal.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\list_normal.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_btn_disable.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\btn_disable.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\generated\\res\\pngs\\release\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\menu_ble_reader.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\menu\\ble_reader.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_item_epc.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\item_epc.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_scan_no_tamper.jpg.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-xhdpi\\scan_no_tamper.jpg"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_tamper.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_tamper.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_aaa.jpg.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-hdpi\\aaa.jpg"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_item_device.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\item_device.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\raw_long_hint.mp3.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\raw\\long_hint.mp3"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_list_pressed.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\list_pressed.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable_btn_pressed.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable\\btn_pressed.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_fragment_tid.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\fragment_tid.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\generated\\res\\pngs\\release\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-v21_button_style.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\drawable-v21\\button_style.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\layout_activity_demo.xml.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\src\\main\\res\\layout\\activity_demo.xml"
+    },
+    {
+        "merged": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\user\\zhuomian\\APP\\demo_source_origin\\demo_source\\ble.bu01.demo\\build\\generated\\res\\pngs\\release\\drawable-ldpi\\ic_launcher_background.png"
+    }
+]

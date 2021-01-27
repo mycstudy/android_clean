@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.xminnov.bu01.demo",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "ble.bu01.demo-release.apk",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "resources-release.ap_",
+      "properties": {
+        "packageId": "com.xminnov.bu01.demo",
+        "split": "",
+        "minSdkVersion": "18"
+      }
+    }
+  ]
+}

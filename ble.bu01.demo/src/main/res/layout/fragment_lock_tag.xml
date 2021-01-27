@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_lock"
+        style="@style/BlueTextButton"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_btn_lock"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        style="@style/StatusTextView"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_lock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_lock"
+        tools:text="Running..." />
+
+    <TextView
+        android:id="@+id/tv_anchor_epc"
+        style="@style/BoldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/text_tv_anchor_epc"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_epc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_epc" />
+
+    <TextView
+        android:id="@+id/tv_epc"
+        style="@style/NormalTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_epc"
+        app:layout_constraintTop_toBottomOf="@+id/btn_lock"
+        tools:text="01020304  05060708  090A0B0C  0D0E0F00" />
+
+    <TextView
+        android:id="@+id/tv_anchor_pwd"
+        style="@style/BoldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_access_pwd"
+        app:layout_constraintBottom_toBottomOf="@+id/et_acc_pwd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_acc_pwd" />
+
+    <EditText
+        android:id="@+id/et_acc_pwd"
+        style="@style/BorderEditText"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="textStart"
+        android:hint=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_anchor_pwd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_epc" />
+
+    <TextView
+        android:id="@+id/tv_hint_lock_pwd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_hint_acc_pwd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_acc_pwd" />
+
+    <TextView
+        android:id="@+id/tv_anchor_lock_object"
+        style="@style/BoldTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_lock_object"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hint_lock_pwd" />
+
+    <RadioGroup
+        android:id="@+id/rg_lock_object"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:checkedButton="@+id/rb_epc"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_anchor_lock_object">
+
+        <RadioButton
+            android:id="@+id/rb_epc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_epc" />
+
+        <RadioButton
+            android:id="@+id/rb_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_user" />
+
+        <RadioButton
+            android:id="@+id/rb_acc_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_access_pwd" />
+
+        <RadioButton
+            android:id="@+id/rb_kill_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_kill_pwd" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_lock_action"
+        style="@style/BoldTextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_tv_anchor_lock_action"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_lock_object" />
+
+    <RadioGroup
+        android:id="@+id/rg_lock_action"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:checkedButton="@+id/rb_unlock"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lock_action">
+
+        <RadioButton
+            android:id="@+id/rb_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_unlock" />
+
+        <RadioButton
+            android:id="@+id/rb_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_lock" />
+
+        <RadioButton
+            android:id="@+id/rb_lock_perm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/text_rb_lock_perm" />
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>

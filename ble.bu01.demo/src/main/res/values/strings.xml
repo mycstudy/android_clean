@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ble UHF</string>
+    <string name="connect">connect</string>
+    <string name="disconnect">disconnect</string>
+
+    <string name="text_tv_no">NO.</string>
+    <string name="text_tv_epc">EPC</string>
+    <string name="text_tv_count">Count</string>
+    <string name="text_tv_rssi">Rssi</string>
+    <string name="text_tv_total_anchor">Total:</string>
+
+    <string name="text_tv_anchor_epc">EPC:</string>
+    <string name="text_tv_anchor_tid">TID:</string>
+    <string name="text_tv_anchor_access_pwd">Access password(Hex):</string>
+    <string name="text_tv_anchor_start_addr">Start address(Hex):</string>
+    <string name="text_tv_anchor_memory_bank">Memory bank:</string>
+    <string name="text_tv_anchor_length">Length(Word)(Hex):</string>
+    <string name="text_tv_anchor_data">Data(Hex):</string>
+    <string name="text_tv_anchor_lock_object">Lock object:</string>
+    <string name="text_tv_anchor_lock_action">Lock action:</string>
+    <string name="text_tv_anchor_kill_pwd">Kill password(Hex):</string>
+    <string name="text_tv_anchor_battery">Battery:</string>
+    <string name="text_tv_anchor_buzzer">Buzzer:</string>
+    <string name="text_tv_anchor_calibration">T W/O Calibration:</string>
+    <string name="text_tv_anchor_coefficient">T by CoefficientFile:</string>
+    <string name="text_tv_anchor_info">Info:</string>
+    <string name="text_tv_anchor_name">Reader name:</string>
+    <string name="text_tv_anchor_serial_number">Serial number(Dec):</string>
+
+    <string name="text_tv_status_running">Running&#8230;</string>
+    <string name="text_tv_status_success">Success</string>
+    <string name="text_tv_status_read_failed">Read failed:%1$d</string>
+    <string name="text_tv_status_write_failed">Write failed:%1$d</string>
+    <string name="text_tv_status_lock_failed">Lock failed:%1$d</string>
+    <string name="text_tv_status_kill_failed">Kill failed:%1$d</string>
+    <string name="text_tv_status_operate_failed">Failed:%1$d</string>
+    <string name="text_tv_status_single_inventory_failed">Single inventory failed:%1$d</string>
+
+    <string name="text_tv_battery">%1$d%%</string>
+    <string name="text_tv_temperature">%1$s℃</string>
+    <string name="text_tv_power">%1$ddBm</string>
+    <string name="text_tv_channel">%1$d</string>
+
+    <string name="text_rb_epc">EPC</string>
+    <string name="text_rb_tid">TID</string>
+    <string name="text_rb_user">USER</string>
+    <string name="text_rb_reserve">RFU</string>
+    <string name="text_rb_access_pwd">Acc pwd</string>
+    <string name="text_rb_kill_pwd">Kill pwd</string>
+    <string name="text_rb_unlock">Unlock</string>
+    <string name="text_rb_lock">Lock</string>
+    <string name="text_rb_lock_perm">Lock perm</string>
+    <string name="text_rb_version">Version</string>
+    <string name="text_rb_korea">Korea</string>
+    <string name="text_rb_us1">US1</string>
+    <string name="text_rb_us2">US2</string>
+    <string name="text_rb_europe">Europe</string>
+    <string name="text_rb_japan">Japan</string>
+    <string name="text_rb_china1">China1</string>
+    <string name="text_rb_china2">China2</string>
+
+    <string name="text_btn_setting">Setting</string>
+    <string name="text_btn_demo">Demo</string>
+    <string name="text_btn_inventory_start">&#062;&#062;&#062;Start&#060;&#060;&#060;</string>
+    <string name="text_btn_inventory_stop">&#062;&#062;&#062;Stop&#060;&#060;&#060;</string>
+    <string name="text_btn_getUII">Get UII</string>
+    <string name="text_btn_clear">Clear</string>
+    <string name="text_btn_read">Read</string>
+    <string name="text_btn_write">Write</string>
+    <string name="text_btn_lock">Lock</string>
+    <string name="text_btn_kill">Kill</string>
+    <string name="text_btn_battery">Get battery</string>
+    <string name="text_btn_get_info">Get version</string>
+    <string name="text_btn_get_band">Get band</string>
+    <string name="text_btn_set_band">Set band</string>
+    <string name="text_btn_set_name">Set name</string>
+    <string name="text_btn_get_buzzer">Get Buzzer</string>
+    <string name="text_btn_get_light">Get light</string>
+    <string name="text_btn_set_light">Enable light</string>
+    <string name="text_btn_get_power">Get power</string>
+    <string name="text_btn_set_power">Set power</string>
+    <string name="text_btn_get_channel">Get channel</string>
+    <string name="text_btn_set_channel">Set channel</string>
+    <string name="text_btn_get_serial_number">Read S/N</string>
+    <string name="text_btn_set_serial_number">Write S/N</string>
+    <string name="text_btn_factory_reset">Factory reset</string>
+
+    <string name="text_cb_light_left">Left light</string>
+    <string name="text_cb_light_middle">Middle light</string>
+    <string name="text_cb_light_right">Right light</string>
+
+    <string name="text_tab_setting">Setting</string>
+    <string name="text_tab_tid">TID</string>
+    <string name="text_tab_read">Read</string>
+    <string name="text_tab_write">Write</string>
+    <string name="text_tab_lock">Lock</string>
+    <string name="text_tab_kill">Kill</string>
+    <string name="text_tab_tamper">Tamper</string>
+    <string name="text_tab_temp_passive">T passive</string>
+
+    <string name="toast_err_disconnect">ble device is disconnected</string>
+    <string name="toast_err_invalid_pwd">pwd length more than 8!</string>
+    <string name="toast_err_null_pwd">pwd is empty!</string>
+    <string name="toast_err_invalid_addr">invalid addr</string>
+    <string name="toast_err_invalid_length">invalid length</string>
+    <string name="toast_err_invalid_data_length">invalid data length</string>
+    <string name="toast_err_invalid_name">invalid name</string>
+    <string name="toast_err_invalid_serial_number">invalid S/N</string>
+    <string name="toast_err_overflow_serial_number">overflow S/N</string>
+    <string name="toast_err_init_config_file">need permission to init config file!</string>
+    <string name="toast_err_no_matching_config">no matching config!</string>
+    <string name="toast_err_tamper_nonsupport">tag nonsupport this feature!</string>
+    <string name="toast_err_single_inventory">single inventory failed:%1$d</string>
+    <string name="toast_err_start_inventory">start inventory failed:%1$d</string>
+    <string name="toast_err_reset">reset failed</string>
+    <string name="toast_err_no_tag">no tag</string>
+
+    <string name="toast_suc_reset">reset success</string>
+
+    <string name="text_image_description">Tamper tag</string>
+    <string name="text_dialog_tamper">Checking tag&#8230;</string>
+    <string name="text_hint_search_device">Drop down to search ble UHF reader</string>
+    <string name="text_hint_kill_pwd">The first 2 words in bank RFU, and non-default zero.</string>
+    <string name="text_hint_acc_pwd">The last 2 words in bank RFU, and non-default zero.</string>
+    <string name="text_hint_read_length">Input 0 in \'Start address\' and \'Length\', get data of the whole memory bank.</string>
+    <string name="text_hint_set_name">It takes a few minutes before taking effect.</string>
+    <string name="text_hint_set_serial_number">0&#8211;4294967295</string>
+
+    <string name="text_dialog_kill_message">Kill the tag?</string>
+    <string name="text_dialog_reset_message">Factory reset?</string>
+    <string name="text_dialog_resetting_message">Resetting&#8230;</string>
+    <string name="text_dialog_low_power">Reader is low power, please charge in time!</string>
+    <string name="text_dialog_btn_confirm">Confirm</string>
+    <string name="text_dialog_btn_cancel">Cancel</string>
+</resources>
